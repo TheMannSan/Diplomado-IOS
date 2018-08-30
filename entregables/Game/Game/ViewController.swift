@@ -15,11 +15,9 @@ class ViewController: UIViewController {
      let jugadas = ["","👊🏻","🖐🏻","✌🏻"]
     @IBOutlet weak var icon: UILabel!
     @IBOutlet weak var marcador: UILabel!
-    
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var scissors: UIButton!
     @IBOutlet weak var hand: UIButton!
-    
     
     
     @IBAction func reset(_ sender: UIButton) {
@@ -63,6 +61,7 @@ class ViewController: UIViewController {
                 
             
         }else{
+            
             switch movJugador{
             case 1:
                 if movMaquina == 2{
